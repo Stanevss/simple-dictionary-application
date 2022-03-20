@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>How to build a dictionary application using JavaScript</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>English Dictionary</h1>
+    </div>
+    <div class="wrapper">
+        <div class="words">
+            <input type="text" id="search" placeholder="search ...">
+            <button onclick="search()">Go</button>
+
+            <ul id="word_list">
+            
+            </ul>
+        </div>
+
+        <div class="word">
+            <h3 id="word_text">word</h3>
+            <p id="definition">The definition of the word goes here</p>
+            
+            <hr>
+
+            <h3>Related words:</h3>
+            <li id="related">relatedWord</li>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
